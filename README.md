@@ -1,5 +1,5 @@
-# Project Name
-Project description
+# VEEAM Web Services Connector
+This is a template for starting Veeam Agent backup jobs configured in Veeam Backup & Replication.
 
 # Disclaimer
 No Support and No Warranty are provided by SMA Technologies for this project and related material. The use of this project's files is on your own risk.
@@ -7,10 +7,18 @@ No Support and No Warranty are provided by SMA Technologies for this project and
 SMA Technologies assumes no liability for damage caused by the usage of any of the files offered here via this Github repository.
 
 # Prerequisites
-
+- OpCon V19.1
+- Web Services Connector V 20.0.3 
+- Veeam Backup Enterprise Manager  [documentation api](https://helpcenter.veeam.com/docs/backup/rest/overview.html?ver=100)
+- Create two new Global Properties : 
+  - [[Veeam-url]] : your veeam API url  example https:/https://win2012r2:9398/
+  - [[Veeam-Auth]] : Value User:Password (base64 encoded) 
 
 # Instructions
-
+- Download the latest [release](https://github.com/SMATechnologies/jira-webservicestemplate/releases/tag/V1.0)  of .json file 
+- Create your Opcon job Type = Windows, Sub-type = Web Services see [documentation](https://github.com/SMATechnologies/jira-webservicestemplate/blob/master/Documentation/automate%20the%20creation%20of%20a%20ticket%20with%20Notification%20Manager.docx)
+- Import Template, choose your .json  [documentation](https://
+- Select step1 in your job, check the body json, and modify it if you need (OpCon Global Properties are supported)  
 
 # License
 Copyright 2019 SMA Technologies
@@ -31,3 +39,6 @@ We love contributions, please read our [Contribution Guide](CONTRIBUTING.md) to 
 # Code of Conduct
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code-of-conduct.md)
 SMA Technologies has adopted the [Contributor Covenant](CODE_OF_CONDUCT.md) as its Code of Conduct, and we expect project participants to adhere to it. Please read the [full text](CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
+
+
+> Written with [StackEdit](https://stackedit.io/).
