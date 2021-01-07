@@ -16,8 +16,7 @@ SMA Technologies assumes no liability for damage caused by the usage of any of t
 
 # Instructions
 - Download the latest [release](https://github.com/SMATechnologies/veeam-webservicestemplate/releases/tag/V1.0)  of .json file 
-- Create your Opcon job Type = Windows, Sub-type = Web Services and import your template see [documentation](https://github.com/SMATechnologies/veeam-webservicestemplate/blob/master/Documentation/Veeam-backup-agent-instructions.docx)
-- Change in steps 2 & 3 *idofyourbackupagentjob* in the url address with your job ID. You can use Global Proterties or job instances. 
+- Create your Opcon job Type = Windows, Sub-type = Web Services and import your template see [documentation](https://github.com/SMATechnologies/veeam-webservicestemplate/blob/master/Documentation/Veeam-Backup-agent.md)
 
 
 # License
