@@ -58,4 +58,4 @@ We love contributions, please read our [Contribution Guide](CONTRIBUTING.md) to 
 SMA Technologies has adopted the [Contributor Covenant](CODE_OF_CONDUCT.md) as its Code of Conduct, and we expect project participants to adhere to it. Please read the [full text](CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
 
 
-> Written with [StackEdit](https://stackedit.io/).
+
