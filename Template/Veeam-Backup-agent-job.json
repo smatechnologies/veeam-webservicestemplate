@@ -29,7 +29,7 @@
     }
   }, {
     "function" : "GET",
-    "url" : "[[veeam-url]]/api/agents/jobs/idofyourbackupagentjob?format=Entity",
+    "url" : "[[veeam-url]]api/agents/jobs/@BackupAgentJobId?format=Entity",
     "proxyServer" : null,
     "request" : {
       "headers" : [ {
@@ -50,7 +50,7 @@
     }
   }, {
     "function" : "POST",
-    "url" : "[[veeam-url]]/api/agents/jobs/idofyourbackupagentjob?action=start",
+    "url" : "[[veeam-url]]api/agents/jobs/@BackupAgentJobId?action=start",
     "proxyServer" : null,
     "request" : {
       "headers" : [ {
@@ -176,7 +176,10 @@
       "fileName" : null
     }
   } ],
-  "variables" : [ ],
+  "variables" : [ {
+    "name" : "@BackupAgentJobId",
+    "value" : "??????"
+  } ],
   "environmentVariables" : [ ],
   "properties" : [ ]
 }
