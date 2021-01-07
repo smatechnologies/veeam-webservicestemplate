@@ -1,9 +1,11 @@
-### Instruction step by step ### 
+# Instruction step by step #
 Here we use the agentBackup option, you can easily find further options in the [Veeam RESTful API Reference documentation](https://helpcenter.veeam.com/docs/backup/rest/overview.html?ver=100).
+## Variable ##  
+In the GLOBAL VALUE tab create a variable @BackupAgentJobId with your job id as value
 
 ## Step 1 ##
 
-# Create a new logon session #
+### Create a new logon session ###
 
 POST [[veeam-url]]/api/sessionMngr/?v=v1_5  
 
