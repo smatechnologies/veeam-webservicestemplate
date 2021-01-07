@@ -18,5 +18,8 @@ POST [[veeam-url]]/api/sessionMngr/?v=v1_5
 
 **Message Body**  
 {"id":null}  
-![STEP01_RequestBody](https://github.com/SMATechnologies/veeam-webservicestemplate/blob/master/Documentation/img/Step1_02.png)
+![STEP01_RequestBody](https://github.com/SMATechnologies/veeam-webservicestemplate/blob/master/Documentation/img/Step01_02.png)
+
+If logon was successful, the server returns the created authentication token in the X-RestSvcSessionId header of the response. The client must obtain the returned authentication token and add it to the header of every subsequent request to the server.  
+
 **Step Completion 200**
